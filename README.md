@@ -46,3 +46,32 @@ Determina los puntos exactos de equilibrio de mercado o los instantes límite do
     *   Método de Newton-Raphson
     *   Método de la Secante
     *   Estimación empírica del orden de convergencia a partir del historial de errores
+---
+## Características de la plataforma
+
+La plataforma fue desarrollada como una herramienta interactiva de simulación y análisis. Cada módulo permite al usuario ingresar parámetros personalizados y observar el comportamiento de los modelos numéricos en distintos escenarios de crisis.
+
+La aplicación incluye:
+
+- Formularios interactivos para el ingreso de datos.
+- Ejecución de métodos numéricos directamente en el navegador.
+- Visualización de resultados mediante tablas.
+- Gráficos dinámicos para analizar tendencias y comportamientos.
+- Comparación entre diferentes métodos numéricos.
+- Interpretación automática de resultados.
+- Análisis de sensibilidad y estabilidad en determinados escenarios.
+---
+## Interpretación y análisis de resultados
+
+Además de calcular soluciones numéricas, cada módulo proporciona una interpretación de los resultados obtenidos.
+
+Dependiendo del escenario seleccionado, la plataforma permite analizar:
+
+- Impacto del aumento de demanda sobre el abastecimiento.
+- Comportamiento de reservas críticas en el tiempo.
+- Evolución de precios en períodos de incertidumbre.
+- Pérdida del poder adquisitivo familiar.
+- Estabilidad y sensibilidad de sistemas económicos.
+- Comparación de precisión y convergencia entre métodos numéricos.
+
+El objetivo es obtener resultados matemáticos y comprender su significado dentro del contexto económico y social planteado.
