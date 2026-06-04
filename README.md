@@ -60,7 +60,7 @@ La aplicación incluye:
 - Comparación entre diferentes métodos numéricos.
 - Interpretación automática de resultados.
 - Análisis de sensibilidad y estabilidad en determinados escenarios.
-- Explicación del algoritmo utilizado.
+- Explicación del algoritmo utilizado en cada módulo.
 - Estado de convergencia de cada método.
 - Comparación entre métodos.
 - Justificación de cuál método fue más preciso en cada escenario
@@ -79,7 +79,7 @@ Dependiendo del escenario seleccionado, la plataforma permite analizar:
 - Comparación de precisión y convergencia entre métodos numéricos.
 - Estado de convergencia de los métodos numéricos.
 - Interpretación de resultados de manera clara y crítica.
-- Conclusiones específicas para el escenario analizado.
+- Conclusiones claras específicas para el escenario analizado.
 - Limitaciones de cada modelo y recomendaciones.
 
 El objetivo es obtener resultados matemáticos y comprender su significado dentro del contexto económico y social planteado.
