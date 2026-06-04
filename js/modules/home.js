@@ -30,44 +30,40 @@ const HomeModule = (() => {
                 </div>
 
                 <div class="two-col fade-in">
-                    <div>
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-icon red">
-                                    <iconify-icon icon="heroicons:exclamation-triangle" width="22"></iconify-icon>
-                                </div>
-                                <div class="card-title">Problemática</div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon red">
+                                <iconify-icon icon="heroicons:exclamation-triangle" width="22"></iconify-icon>
                             </div>
-                            <div class="card-text">
-                                <p>Bolivia enfrenta desafíos relacionados con el abastecimiento de carburantes, incremento en precios de alimentos, bloqueos, conflictos sociales y pérdida del poder adquisitivo familiar.</p>
-                                <ul style="margin-top:0.75rem;padding-left:1.25rem;">
-                                    <li>Escasez de combustibles en estaciones de servicio</li>
-                                    <li>Aumento progresivo de precios de la canasta básica</li>
-                                    <li>Bloqueos que afectan rutas de transporte</li>
-                                    <li>Rumores y pánico social que amplifican la crisis</li>
-                                    <li>Reducción del poder adquisitivo de las familias</li>
-                                </ul>
-                            </div>
+                            <div class="card-title">Problemática</div>
+                        </div>
+                        <div class="card-text">
+                            <p>Bolivia enfrenta desafíos relacionados con el abastecimiento de carburantes, incremento en precios de alimentos, bloqueos, conflictos sociales y pérdida del poder adquisitivo familiar.</p>
+                            <ul style="margin-top:0.75rem;padding-left:1.25rem;">
+                                <li>Escasez de combustibles en estaciones de servicio</li>
+                                <li>Aumento progresivo de precios de la canasta básica</li>
+                                <li>Bloqueos que afectan rutas de transporte</li>
+                                <li>Rumores y pánico social que amplifican la crisis</li>
+                                <li>Reducción del poder adquisitivo de las familias</li>
+                            </ul>
                         </div>
                     </div>
-                    <div>
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-icon green">
-                                    <iconify-icon icon="heroicons:light-bulb" width="22"></iconify-icon>
-                                </div>
-                                <div class="card-title">Objetivo de la Simulación</div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon green">
+                                <iconify-icon icon="heroicons:light-bulb" width="22"></iconify-icon>
                             </div>
-                            <div class="card-text">
-                                <p>Utilizar los métodos numéricos como herramientas para comprender, modelar y analizar la realidad del país a través de simulaciones computacionales.</p>
-                                <ul style="margin-top:0.75rem;padding-left:1.25rem;">
-                                    <li>Modelar la distribución óptima de recursos</li>
-                                    <li>Predecir tendencias de precios mediante interpolación</li>
-                                    <li>Calcular costos acumulados con integración numérica</li>
-                                    <li>Simular el agotamiento de reservas de carburantes</li>
-                                    <li>Encontrar umbrales críticos en el sistema</li>
-                                </ul>
-                            </div>
+                            <div class="card-title">Objetivo de la Simulación</div>
+                        </div>
+                        <div class="card-text">
+                            <p>Utilizar los métodos numéricos como herramientas para comprender, modelar y analizar la realidad del país a través de simulaciones computacionales.</p>
+                            <ul style="margin-top:0.75rem;padding-left:1.25rem;">
+                                <li>Modelar la distribución óptima de recursos</li>
+                                <li>Predecir tendencias de precios mediante interpolación</li>
+                                <li>Calcular costos acumulados con integración numérica</li>
+                                <li>Simular el agotamiento de reservas de carburantes</li>
+                                <li>Encontrar umbrales críticos en el sistema</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
