@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación Numérica — Abastecimiento, Precios y Conflicto Social</title>
+    <meta name="description" content="Simulación numérica interactiva de abastecimiento, precios y conflicto social en contexto de crisis en Bolivia. Proyecto de Métodos Numéricos.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#inicio" class="navbar-brand">
+                <iconify-icon icon="heroicons:calculator-20-solid" width="24"></iconify-icon>
+                <span>Métodos Numéricos</span>
+            </a>
+            <button class="navbar-toggle" id="navbar-toggle" aria-label="Menú">
+                <iconify-icon icon="heroicons:bars-3" width="28"></iconify-icon>
+            </button>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#inicio" class="nav-link active" data-section="inicio">
+                    <iconify-icon icon="heroicons:home" width="18"></iconify-icon> Inicio
+                </a></li>
+                <li><a href="#modulo1" class="nav-link" data-section="modulo1">
+                    <b style="font-size:1.15em; margin-right:4px;">A</b> Sistemas
+                </a></li>
+                <li><a href="#modulo5" class="nav-link" data-section="modulo5">
+                    <b style="font-size:1.15em; margin-right:4px;">B</b> EDOs
+                </a></li>
+                <li><a href="#modulo3" class="nav-link" data-section="modulo3">
+                    <b style="font-size:1.15em; margin-right:4px;">C</b> Interpolación
+                </a></li>
+                <li><a href="#modulo4" class="nav-link" data-section="modulo4">
+                    <b style="font-size:1.15em; margin-right:4px;">D</b> Integración
+                </a></li>
+                <li><a href="#modulo2" class="nav-link" data-section="modulo2">
+                    <b style="font-size:1.15em; margin-right:4px;">E</b> Raíces
+                </a></li>
+                <li><a href="#conclusiones" class="nav-link" data-section="conclusiones">
+                    <iconify-icon icon="heroicons:clipboard-document-check" width="18"></iconify-icon> Conclusiones
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Content injected by router -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Simulación Numérica de Abastecimiento, Precios y Conflicto Social en Contexto de Crisis</p>
+            <p class="footer-sub">Métodos Numéricos — 2026</p>
+        </div>
+    </footer>
+
+    <!-- Scripts: Methods -->
+    <script src="js/methods/linear-systems.js"></script>
+    <script src="js/methods/roots.js"></script>
+    <script src="js/methods/interpolation.js"></script>
+    <script src="js/methods/integration.js"></script>
+    <script src="js/methods/ode.js"></script>
+
+    <!-- Scripts: Core -->
+    <script src="js/ui.js"></script>
+    <script src="js/charts.js"></script>
+
+    <!-- Scripts: Modules -->
+    <script src="js/modules/home.js"></script>
+    <script src="js/modules/module1.js"></script>
+    <script src="js/modules/module2.js"></script>
+    <script src="js/modules/module3.js"></script>
+    <script src="js/modules/module4.js"></script>
+    <script src="js/modules/module5.js"></script>
+    <script src="js/modules/conclusions.js"></script>
+
+    <!-- Scripts: App -->
+    <script src="js/app.js"></script>
+</body>
+</html>
