@@ -60,6 +60,7 @@ La aplicación incluye:
 - Comparación entre diferentes métodos numéricos.
 - Interpretación automática de resultados.
 - Análisis de sensibilidad y estabilidad en determinados escenarios.
+- Explicación del algoritmo utilizado.
 
 ## Interpretación y análisis de resultados
 
@@ -74,6 +75,7 @@ Dependiendo del escenario seleccionado, la plataforma permite analizar:
 - Estabilidad y sensibilidad de sistemas económicos.
 - Comparación de precisión y convergencia entre métodos numéricos.
 - Interpretación de resultados de manera clara y crítica.
-- Conclusiones, limitaciones y recomendaciones.
+- - Conclusiones específicas para el escenario analizado.
+- Limitaciones y recomendaciones.
 
 El objetivo es obtener resultados matemáticos y comprender su significado dentro del contexto económico y social planteado.
