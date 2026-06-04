@@ -77,8 +77,9 @@ Dependiendo del escenario seleccionado, la plataforma permite analizar:
 - Pérdida del poder adquisitivo familiar.
 - Estabilidad y sensibilidad de sistemas económicos.
 - Comparación de precisión y convergencia entre métodos numéricos.
+- Estado de convergencia de los métodos numéricos.
 - Interpretación de resultados de manera clara y crítica.
-- - Conclusiones específicas para el escenario analizado.
+- Conclusiones específicas para el escenario analizado.
 - Limitaciones de cada modelo y recomendaciones.
 
 El objetivo es obtener resultados matemáticos y comprender su significado dentro del contexto económico y social planteado.
